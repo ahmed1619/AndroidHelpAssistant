@@ -21,6 +21,7 @@ public class Edit extends AppCompatActivity {
 
     public void Del(View view) {
         Intent j = new Intent(Edit.this , MainActivity.class);
+
         startActivity(j);
     }
 }
